@@ -11,5 +11,6 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
     cout << x / 0 << endl;
+    int *p = new int;
     return 0;
 }
