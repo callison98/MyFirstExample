@@ -10,9 +10,6 @@ int main()
     int x,y;
     cin >> x >> y;
     cout << x + y << endl;
-    cout << x / y << endl;
-    char c = "c";
-    delete c;
-    cout << c << endl;
+    cout << x / 0 << endl;
     return 0;
 }
