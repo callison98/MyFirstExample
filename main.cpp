@@ -11,5 +11,8 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
     cout << x / y << endl;
+    char c = "c";
+    delete c;
+    cout << c << endl;
     return 0;
 }
