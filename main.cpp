@@ -14,3 +14,7 @@ int main()
     int *p = new int;
     return 0;
 }
+
+void test() {
+  int *p = new int;
+} // warn
